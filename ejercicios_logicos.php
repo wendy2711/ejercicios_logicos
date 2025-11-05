@@ -78,7 +78,7 @@ function frecuenciaCaracteres($cadena) {
 
     for ($i = 0; $i < $longitud; $i++) {
         $caracter = $cadena[$i];
-        if ($caracter != " ") { // ignorar espacios
+        if ($caracter != " ") { 
             if (isset($frecuencia[$caracter])) {
                 $frecuencia[$caracter]++;
             } else {
